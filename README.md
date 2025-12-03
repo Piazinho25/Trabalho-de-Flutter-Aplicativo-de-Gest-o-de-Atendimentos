@@ -28,7 +28,6 @@ O projeto utiliza diversas bibliotecas para garantir modularidade, organização
 
 | Dependência               | Função |
 |---------------------------|--------|
-| **flutter_bloc**          | Gerência de estado com o padrão **Cubit**, permitindo controle eficiente do fluxo de dados. |
 | **sqflite**               | Banco de dados local SQLite para salvar atendimentos, fotos e descrições. |
 | **image_picker**          | Captura de imagens da câmera ou galeria. |
 | **get_it**                | Service Locator para gerenciamento de instâncias. |
