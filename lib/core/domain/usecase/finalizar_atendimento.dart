@@ -1,0 +1,1 @@
+import '../contract/i_atendimento_repository.dart';import '../model/atendimento_model.dart';class FinalizarAtendimento{final IAtendimentoRepository repo;FinalizarAtendimento(this.repo);Future<int> call(AtendimentoModel a){final m=AtendimentoModel(id:a.id,titulo:a.titulo,descricao:a.descricao,imagePath:a.imagePath,status:'finalizado',createdAt:a.createdAt);return repo.update(m);}}

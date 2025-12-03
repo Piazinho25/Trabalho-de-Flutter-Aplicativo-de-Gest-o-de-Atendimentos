@@ -1,0 +1,1 @@
+import '../contract/i_atendimento_repository.dart';import '../model/atendimento_model.dart';class UpdateAtendimento{final IAtendimentoRepository repo;UpdateAtendimento(this.repo);Future<int> call(AtendimentoModel m)=>repo.update(m);}
